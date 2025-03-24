@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_DB: via_tabloid
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend/ViaTabloidApi
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=via_tabloid;Username=postgres;Password=yourpassword
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_HOST=localhost
+        - VITE_API_PORT=5000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_HOST=localhost
+      - VITE_API_PORT=5000
+volumes:
+  postgres_data:

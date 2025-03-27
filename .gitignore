@@ -1,7 +1,3 @@
-# DocFX Generated Files
-docs/_site/
-docs/api/
-
 # .NET Build Artifacts
 **/bin/
 **/obj/

@@ -3,6 +3,8 @@ using ViaTabloidApi.Infrastructure;
 using ViaTabloidApi.Middleware;
 using ViaTabloidApi.Resources;
 using ViaTabloidApi.Services;
+using Polly;
+using Context = ViaTabloidApi.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +31,23 @@ var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<Context>();
+    var policy = Policy
+        .Handle<Exception>()
+        .WaitAndRetry(5, retryAttempt => TimeSpan.FromSeconds(5),
+            (exception, timeSpan, retryCount, context) =>
+            {
+                Console.WriteLine($"Retry {retryCount} failed: {exception.Message}. Waiting {timeSpan.TotalSeconds} seconds...");
+            });
+
+    policy.Execute(() =>
+    {
+        dbContext.Database.Migrate();
+        Console.WriteLine("Database migrations applied successfully.");
+    });
+}
 
 if (app.Environment.IsDevelopment())
 {

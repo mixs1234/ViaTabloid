@@ -39,7 +39,7 @@
     "globalMetadata": {
       "_appName": "",
       "_appTitle": "",
-      "_appLogoPath": "Images/icon.png",
+      "_appLogoPath": "images/icon.png",
       "_enableSearch": true,
       "pdf": true
     }

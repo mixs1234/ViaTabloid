@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViaTabloidApi.Services.IStoryService
+  commentId: T:ViaTabloidApi.Services.IStoryService
+  id: IStoryService
+  parent: ViaTabloidApi.Services
+  children:
+  - ViaTabloidApi.Services.IStoryService.CreateStoryAsync(ViaTabloidApi.Models.DTO.CreateStoryDTO)
+  - ViaTabloidApi.Services.IStoryService.DeleteStoryAsync(System.Int32)
+  - ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync
+  - ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync(System.Int32)
+  - ViaTabloidApi.Services.IStoryService.UpdateStoryAsync(Story)
+  langs:
+  - csharp
+  - vb
+  name: IStoryService
+  nameWithType: IStoryService
+  fullName: ViaTabloidApi.Services.IStoryService
+  type: Interface
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: IStoryService
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 7
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Interface for managing stories in the application.
+  example: []
+  syntax:
+    content: public interface IStoryService
+    content.vb: Public Interface IStoryService
+- uid: ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync
+  commentId: M:ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync
+  id: GetAllStoriesAsync
+  parent: ViaTabloidApi.Services.IStoryService
+  langs:
+  - csharp
+  - vb
+  name: GetAllStoriesAsync()
+  nameWithType: IStoryService.GetAllStoriesAsync()
+  fullName: ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync()
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: GetAllStoriesAsync
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 13
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Retrieves all stories asynchronously.
+  example: []
+  syntax:
+    content: Task<IEnumerable<Story>> GetAllStoriesAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Story}}
+      description: A task that represents the asynchronous operation. The task result contains a collection of stories.
+    content.vb: Function GetAllStoriesAsync() As Task(Of IEnumerable(Of Story))
+  overload: ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync*
+- uid: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync(System.Int32)
+  commentId: M:ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync(System.Int32)
+  id: GetStoryByIdAsync(System.Int32)
+  parent: ViaTabloidApi.Services.IStoryService
+  langs:
+  - csharp
+  - vb
+  name: GetStoryByIdAsync(int)
+  nameWithType: IStoryService.GetStoryByIdAsync(int)
+  fullName: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync(int)
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: GetStoryByIdAsync
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 20
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Retrieves a specific story by its unique identifier asynchronously.
+  example: []
+  syntax:
+    content: Task<Story> GetStoryByIdAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The unique identifier of the story.
+    return:
+      type: System.Threading.Tasks.Task{Story}
+      description: A task that represents the asynchronous operation. The task result contains the story with the specified ID.
+    content.vb: Function GetStoryByIdAsync(id As Integer) As Task(Of Story)
+  overload: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync*
+  nameWithType.vb: IStoryService.GetStoryByIdAsync(Integer)
+  fullName.vb: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync(Integer)
+  name.vb: GetStoryByIdAsync(Integer)
+- uid: ViaTabloidApi.Services.IStoryService.CreateStoryAsync(ViaTabloidApi.Models.DTO.CreateStoryDTO)
+  commentId: M:ViaTabloidApi.Services.IStoryService.CreateStoryAsync(ViaTabloidApi.Models.DTO.CreateStoryDTO)
+  id: CreateStoryAsync(ViaTabloidApi.Models.DTO.CreateStoryDTO)
+  parent: ViaTabloidApi.Services.IStoryService
+  langs:
+  - csharp
+  - vb
+  name: CreateStoryAsync(CreateStoryDTO)
+  nameWithType: IStoryService.CreateStoryAsync(CreateStoryDTO)
+  fullName: ViaTabloidApi.Services.IStoryService.CreateStoryAsync(ViaTabloidApi.Models.DTO.CreateStoryDTO)
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: CreateStoryAsync
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 27
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Creates a new story asynchronously.
+  example: []
+  syntax:
+    content: Task<Story> CreateStoryAsync(CreateStoryDTO createStoryDTO)
+    parameters:
+    - id: createStoryDTO
+      type: ViaTabloidApi.Models.DTO.CreateStoryDTO
+    return:
+      type: System.Threading.Tasks.Task{Story}
+      description: A task that represents the asynchronous operation. The task result contains the created story.
+    content.vb: Function CreateStoryAsync(createStoryDTO As CreateStoryDTO) As Task(Of Story)
+  overload: ViaTabloidApi.Services.IStoryService.CreateStoryAsync*
+- uid: ViaTabloidApi.Services.IStoryService.UpdateStoryAsync(Story)
+  commentId: M:ViaTabloidApi.Services.IStoryService.UpdateStoryAsync(Story)
+  id: UpdateStoryAsync(Story)
+  parent: ViaTabloidApi.Services.IStoryService
+  langs:
+  - csharp
+  - vb
+  name: UpdateStoryAsync(Story)
+  nameWithType: IStoryService.UpdateStoryAsync(Story)
+  fullName: ViaTabloidApi.Services.IStoryService.UpdateStoryAsync(Story)
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: UpdateStoryAsync
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 34
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Updates an existing story asynchronously.
+  example: []
+  syntax:
+    content: Task UpdateStoryAsync(Story story)
+    parameters:
+    - id: story
+      type: Story
+      description: The story with updated information.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task that represents the asynchronous operation.
+    content.vb: Function UpdateStoryAsync(story As Story) As Task
+  overload: ViaTabloidApi.Services.IStoryService.UpdateStoryAsync*
+- uid: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync(System.Int32)
+  commentId: M:ViaTabloidApi.Services.IStoryService.DeleteStoryAsync(System.Int32)
+  id: DeleteStoryAsync(System.Int32)
+  parent: ViaTabloidApi.Services.IStoryService
+  langs:
+  - csharp
+  - vb
+  name: DeleteStoryAsync(int)
+  nameWithType: IStoryService.DeleteStoryAsync(int)
+  fullName: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync(int)
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Services/IStoryService.cs
+      branch: main
+      repo: https://github.com/mixs1234/ViaTabloid.git
+    id: DeleteStoryAsync
+    path: ../backend/ViaTabloidApi/Services/IStoryService.cs
+    startLine: 41
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Services
+  summary: Deletes a story by its unique identifier asynchronously.
+  example: []
+  syntax:
+    content: Task DeleteStoryAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The unique identifier of the story to be deleted.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task that represents the asynchronous operation.
+    content.vb: Function DeleteStoryAsync(id As Integer) As Task
+  overload: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync*
+  nameWithType.vb: IStoryService.DeleteStoryAsync(Integer)
+  fullName.vb: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync(Integer)
+  name.vb: DeleteStoryAsync(Integer)
+references:
+- uid: ViaTabloidApi.Services
+  commentId: N:ViaTabloidApi.Services
+  href: ViaTabloidApi.html
+  name: ViaTabloidApi.Services
+  nameWithType: ViaTabloidApi.Services
+  fullName: ViaTabloidApi.Services
+  spec.csharp:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Services
+    name: Services
+    href: ViaTabloidApi.Services.html
+  spec.vb:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Services
+    name: Services
+    href: ViaTabloidApi.Services.html
+- uid: ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync*
+  commentId: Overload:ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync
+  href: ViaTabloidApi.Services.IStoryService.html#ViaTabloidApi_Services_IStoryService_GetAllStoriesAsync
+  name: GetAllStoriesAsync
+  nameWithType: IStoryService.GetAllStoriesAsync
+  fullName: ViaTabloidApi.Services.IStoryService.GetAllStoriesAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Story}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Story}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<Story>>
+  nameWithType: Task<IEnumerable<Story>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<Story>>
+  nameWithType.vb: Task(Of IEnumerable(Of Story))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of Story))
+  name.vb: Task(Of IEnumerable(Of Story))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Story
+    name: Story
+    href: Story.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Story
+    name: Story
+    href: Story.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync*
+  commentId: Overload:ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync
+  href: ViaTabloidApi.Services.IStoryService.html#ViaTabloidApi_Services_IStoryService_GetStoryByIdAsync_System_Int32_
+  name: GetStoryByIdAsync
+  nameWithType: IStoryService.GetStoryByIdAsync
+  fullName: ViaTabloidApi.Services.IStoryService.GetStoryByIdAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{Story}
+  commentId: T:System.Threading.Tasks.Task{Story}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Story>
+  nameWithType: Task<Story>
+  fullName: System.Threading.Tasks.Task<Story>
+  nameWithType.vb: Task(Of Story)
+  fullName.vb: System.Threading.Tasks.Task(Of Story)
+  name.vb: Task(Of Story)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Story
+    name: Story
+    href: Story.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Story
+    name: Story
+    href: Story.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ViaTabloidApi.Services.IStoryService.CreateStoryAsync*
+  commentId: Overload:ViaTabloidApi.Services.IStoryService.CreateStoryAsync
+  href: ViaTabloidApi.Services.IStoryService.html#ViaTabloidApi_Services_IStoryService_CreateStoryAsync_ViaTabloidApi_Models_DTO_CreateStoryDTO_
+  name: CreateStoryAsync
+  nameWithType: IStoryService.CreateStoryAsync
+  fullName: ViaTabloidApi.Services.IStoryService.CreateStoryAsync
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  commentId: T:ViaTabloidApi.Models.DTO.CreateStoryDTO
+  parent: ViaTabloidApi.Models.DTO
+  href: ViaTabloidApi.Models.DTO.CreateStoryDTO.html
+  name: CreateStoryDTO
+  nameWithType: CreateStoryDTO
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO
+- uid: ViaTabloidApi.Models.DTO
+  commentId: N:ViaTabloidApi.Models.DTO
+  href: ViaTabloidApi.html
+  name: ViaTabloidApi.Models.DTO
+  nameWithType: ViaTabloidApi.Models.DTO
+  fullName: ViaTabloidApi.Models.DTO
+  spec.csharp:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Models
+    name: Models
+    href: ViaTabloidApi.Models.html
+  - name: .
+  - uid: ViaTabloidApi.Models.DTO
+    name: DTO
+    href: ViaTabloidApi.Models.DTO.html
+  spec.vb:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Models
+    name: Models
+    href: ViaTabloidApi.Models.html
+  - name: .
+  - uid: ViaTabloidApi.Models.DTO
+    name: DTO
+    href: ViaTabloidApi.Models.DTO.html
+- uid: ViaTabloidApi.Services.IStoryService.UpdateStoryAsync*
+  commentId: Overload:ViaTabloidApi.Services.IStoryService.UpdateStoryAsync
+  href: ViaTabloidApi.Services.IStoryService.html#ViaTabloidApi_Services_IStoryService_UpdateStoryAsync_Story_
+  name: UpdateStoryAsync
+  nameWithType: IStoryService.UpdateStoryAsync
+  fullName: ViaTabloidApi.Services.IStoryService.UpdateStoryAsync
+- uid: Story
+  commentId: T:Story
+  href: Story.html
+  name: Story
+  nameWithType: Story
+  fullName: Story
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync*
+  commentId: Overload:ViaTabloidApi.Services.IStoryService.DeleteStoryAsync
+  href: ViaTabloidApi.Services.IStoryService.html#ViaTabloidApi_Services_IStoryService_DeleteStoryAsync_System_Int32_
+  name: DeleteStoryAsync
+  nameWithType: IStoryService.DeleteStoryAsync
+  fullName: ViaTabloidApi.Services.IStoryService.DeleteStoryAsync

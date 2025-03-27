@@ -1,0 +1,72 @@
+### YamlMime:TableOfContent
+items:
+- uid: ViaTabloidApi.Controllers
+  name: ViaTabloidApi.Controllers
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Controllers.StoriesController
+    name: StoriesController
+    type: Class
+- uid: ViaTabloidApi.Error
+  name: ViaTabloidApi.Error
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Error.StoryNotFoundException
+    name: StoryNotFoundException
+    type: Class
+- uid: ViaTabloidApi.Infrastructure
+  name: ViaTabloidApi.Infrastructure
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Infrastructure.Context
+    name: Context
+    type: Class
+- uid: ViaTabloidApi.Infrastructure.Configuration
+  name: ViaTabloidApi.Infrastructure.Configuration
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Infrastructure.Configuration.StoryConfiguration
+    name: StoryConfiguration
+    type: Class
+- uid: ViaTabloidApi.Middleware
+  name: ViaTabloidApi.Middleware
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Middleware.ExceptionMiddleware
+    name: ExceptionMiddleware
+    type: Class
+- uid: ViaTabloidApi.Migrations
+  name: ViaTabloidApi.Migrations
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Migrations.InitialCommit
+    name: InitialCommit
+    type: Class
+- uid: ViaTabloidApi.Models.DTO
+  name: ViaTabloidApi.Models.DTO
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Models.DTO.CreateStoryDTO
+    name: CreateStoryDTO
+    type: Class
+- uid: ViaTabloidApi.Resources
+  name: ViaTabloidApi.Resources
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Resources.IStoryRepository
+    name: IStoryRepository
+    type: Interface
+  - uid: ViaTabloidApi.Resources.StoryRepository
+    name: StoryRepository
+    type: Class
+- uid: ViaTabloidApi.Services
+  name: ViaTabloidApi.Services
+  type: Namespace
+  items:
+  - uid: ViaTabloidApi.Services.IStoryService
+    name: IStoryService
+    type: Interface
+  - uid: ViaTabloidApi.Services.StoryService
+    name: StoryService
+    type: Class
+memberLayout: SamePage

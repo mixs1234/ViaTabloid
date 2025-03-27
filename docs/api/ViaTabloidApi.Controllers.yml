@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViaTabloidApi.Controllers
+  commentId: N:ViaTabloidApi.Controllers
+  id: ViaTabloidApi.Controllers
+  children:
+  - ViaTabloidApi.Controllers.StoriesController
+  langs:
+  - csharp
+  - vb
+  name: ViaTabloidApi.Controllers
+  nameWithType: ViaTabloidApi.Controllers
+  fullName: ViaTabloidApi.Controllers
+  type: Namespace
+  assemblies:
+  - ViaTabloidApi
+references:
+- uid: ViaTabloidApi.Controllers.StoriesController
+  commentId: T:ViaTabloidApi.Controllers.StoriesController
+  href: ViaTabloidApi.Controllers.StoriesController.html
+  name: StoriesController
+  nameWithType: StoriesController
+  fullName: ViaTabloidApi.Controllers.StoriesController

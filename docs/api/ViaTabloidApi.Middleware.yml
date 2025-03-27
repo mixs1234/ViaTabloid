@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViaTabloidApi.Middleware
+  commentId: N:ViaTabloidApi.Middleware
+  id: ViaTabloidApi.Middleware
+  children:
+  - ViaTabloidApi.Middleware.ExceptionMiddleware
+  langs:
+  - csharp
+  - vb
+  name: ViaTabloidApi.Middleware
+  nameWithType: ViaTabloidApi.Middleware
+  fullName: ViaTabloidApi.Middleware
+  type: Namespace
+  assemblies:
+  - ViaTabloidApi
+references:
+- uid: ViaTabloidApi.Middleware.ExceptionMiddleware
+  commentId: T:ViaTabloidApi.Middleware.ExceptionMiddleware
+  href: ViaTabloidApi.Middleware.ExceptionMiddleware.html
+  name: ExceptionMiddleware
+  nameWithType: ExceptionMiddleware
+  fullName: ViaTabloidApi.Middleware.ExceptionMiddleware

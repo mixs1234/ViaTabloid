@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  commentId: T:ViaTabloidApi.Models.DTO.CreateStoryDTO
+  id: CreateStoryDTO
+  parent: ViaTabloidApi.Models.DTO
+  children:
+  - ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+  - ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+  - ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity
+  - ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+  langs:
+  - csharp
+  - vb
+  name: CreateStoryDTO
+  nameWithType: CreateStoryDTO
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  type: Class
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+      branch: main
+      repo: git@github.com:mixs1234/ViaTabloid.git
+    id: CreateStoryDTO
+    path: ../backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+    startLine: 2
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Models.DTO
+  syntax:
+    content: public class CreateStoryDTO
+    content.vb: Public Class CreateStoryDTO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+  commentId: P:ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+  id: Title
+  parent: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CreateStoryDTO.Title
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+  type: Property
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+      branch: main
+      repo: git@github.com:mixs1234/ViaTabloid.git
+    id: Title
+    path: ../backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+    startLine: 4
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Models.DTO
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: ViaTabloidApi.Models.DTO.CreateStoryDTO.Title*
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+  commentId: P:ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+  id: Content
+  parent: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: CreateStoryDTO.Content
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+  type: Property
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+      branch: main
+      repo: git@github.com:mixs1234/ViaTabloid.git
+    id: Content
+    path: ../backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+    startLine: 5
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Models.DTO
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: ViaTabloidApi.Models.DTO.CreateStoryDTO.Content*
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+  commentId: P:ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+  id: Department
+  parent: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: CreateStoryDTO.Department
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+  type: Property
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+      branch: main
+      repo: git@github.com:mixs1234/ViaTabloid.git
+    id: Department
+    path: ../backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+    startLine: 6
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Models.DTO
+  syntax:
+    content: public string Department { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Department As String
+  overload: ViaTabloidApi.Models.DTO.CreateStoryDTO.Department*
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity
+  commentId: M:ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity
+  id: MapToEntity
+  parent: ViaTabloidApi.Models.DTO.CreateStoryDTO
+  langs:
+  - csharp
+  - vb
+  name: MapToEntity()
+  nameWithType: CreateStoryDTO.MapToEntity()
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity()
+  type: Method
+  source:
+    remote:
+      path: backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+      branch: main
+      repo: git@github.com:mixs1234/ViaTabloid.git
+    id: MapToEntity
+    path: ../backend/ViaTabloidApi/Models/DTO/CreateStoryDTO.cs
+    startLine: 8
+  assemblies:
+  - ViaTabloidApi
+  namespace: ViaTabloidApi.Models.DTO
+  syntax:
+    content: public Story MapToEntity()
+    return:
+      type: Story
+    content.vb: Public Function MapToEntity() As Story
+  overload: ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity*
+references:
+- uid: ViaTabloidApi.Models.DTO
+  commentId: N:ViaTabloidApi.Models.DTO
+  href: ViaTabloidApi.html
+  name: ViaTabloidApi.Models.DTO
+  nameWithType: ViaTabloidApi.Models.DTO
+  fullName: ViaTabloidApi.Models.DTO
+  spec.csharp:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Models
+    name: Models
+    href: ViaTabloidApi.Models.html
+  - name: .
+  - uid: ViaTabloidApi.Models.DTO
+    name: DTO
+    href: ViaTabloidApi.Models.DTO.html
+  spec.vb:
+  - uid: ViaTabloidApi
+    name: ViaTabloidApi
+    href: ViaTabloidApi.html
+  - name: .
+  - uid: ViaTabloidApi.Models
+    name: Models
+    href: ViaTabloidApi.Models.html
+  - name: .
+  - uid: ViaTabloidApi.Models.DTO
+    name: DTO
+    href: ViaTabloidApi.Models.DTO.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Title*
+  commentId: Overload:ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+  href: ViaTabloidApi.Models.DTO.CreateStoryDTO.html#ViaTabloidApi_Models_DTO_CreateStoryDTO_Title
+  name: Title
+  nameWithType: CreateStoryDTO.Title
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Content*
+  commentId: Overload:ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+  href: ViaTabloidApi.Models.DTO.CreateStoryDTO.html#ViaTabloidApi_Models_DTO_CreateStoryDTO_Content
+  name: Content
+  nameWithType: CreateStoryDTO.Content
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Content
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.Department*
+  commentId: Overload:ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+  href: ViaTabloidApi.Models.DTO.CreateStoryDTO.html#ViaTabloidApi_Models_DTO_CreateStoryDTO_Department
+  name: Department
+  nameWithType: CreateStoryDTO.Department
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.Department
+- uid: ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity*
+  commentId: Overload:ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity
+  href: ViaTabloidApi.Models.DTO.CreateStoryDTO.html#ViaTabloidApi_Models_DTO_CreateStoryDTO_MapToEntity
+  name: MapToEntity
+  nameWithType: CreateStoryDTO.MapToEntity
+  fullName: ViaTabloidApi.Models.DTO.CreateStoryDTO.MapToEntity
+- uid: Story
+  commentId: T:Story
+  href: Story.html
+  name: Story
+  nameWithType: Story
+  fullName: Story

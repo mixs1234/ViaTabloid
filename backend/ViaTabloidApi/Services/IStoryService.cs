@@ -23,7 +23,7 @@ namespace ViaTabloidApi.Services
         /// <summary>
         /// Creates a new story asynchronously.
         /// </summary>
-        /// <param name="story">The story to be created.</param>
+        /// <param name="createStoryDTO"></param>
         /// <returns>A task that represents the asynchronous operation. The task result contains the created story.</returns>
         Task<Story> CreateStoryAsync(CreateStoryDTO createStoryDTO);
 

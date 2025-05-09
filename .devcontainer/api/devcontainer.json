@@ -1,0 +1,23 @@
+{
+  "name": "WebApi Container",
+  "dockerComposeFile": "docker-compose.dev.yml",
+  "service": "webapi",
+  "workspaceFolder": "/workspace/backend/ViaTabloidApi",
+  "forwardPorts": [5050, 5051, 5432],
+  "postCreateCommand": "dotnet restore",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-docker",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "pkief.material-icon-theme"
+      ],
+      "settings": {
+        "workbench.iconTheme": "material-icon-theme",
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}

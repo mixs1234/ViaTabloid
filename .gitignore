@@ -45,3 +45,6 @@ yarn-error.log*
 # Miscellaneous
 *.bak
 *.tmp
+
+# ignore the local db
+*db

@@ -48,3 +48,7 @@ yarn-error.log*
 
 # ignore the local db
 *db
+
+# Ignore the k8s directory
+k8s/
+

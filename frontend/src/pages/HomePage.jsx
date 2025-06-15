@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <h1>ViaTabloid</h1>
-            <p>Welcome to ViaTabloid, a simple web application to manage stories.</p>
+            <p >Welcome to ViaTabloid, a simple web application to manage stories.</p>
             <StoryTable />
 
             <p>Connection String</p>
